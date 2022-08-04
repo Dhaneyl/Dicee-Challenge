@@ -1,0 +1,168 @@
+body{
+  font-family: "Montserrat";
+}
+
+h1, h2{
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+p{
+  color:gray;
+}
+
+#title{
+  background-color: #98ACF8;
+  color: white;
+
+}
+
+.container-fluid{
+  padding: 3% 15%;
+  padding-bottom: 3%;
+}
+
+/* Barra de navegacion */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#tindo{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-family: "Montserrat-light";
+ font-size: 1.2rem;
+}
+/* BOTONES*/
+.download-buttom{
+  margin: 5% 3% 5% 0;
+}
+/* Imagen del titulo*/
+#dog{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+/* Features de la app */
+
+.pa{
+  font-family: "Montserrat";
+  color: gray;
+  text-align: center;
+}
+#Features{
+  padding: 7% 15%;
+  font-family: "Montserrat";
+  background-color: white;
+  position: relative;
+}
+.box{
+  padding: 5%;
+  text-align: center;
+}
+.icon{
+  margin-bottom: 1rem;
+  color:#D7E9F7;
+}
+.icon:hover{
+  color: #98ACF8;
+}
+/*Testimonios*/
+#testimonials{
+  background-color: #98ACF8;
+  color: white;
+  text-align: center;
+
+}
+
+.testimonial-image{
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+#progress{
+  background-color: #98ACF8;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+padding: 7% 15%;
+}
+/*Cards y precios*/
+.card-group{
+
+  text-align: center;
+
+}
+#Pricing{
+  padding: 100px;
+  font-family: "Montserrat";
+  text-align:center;
+}
+
+.pricing-div{
+  margin-bottom: 30px;
+}
+/*llamada de atencion*/
+#cta{
+  padding: 90px;
+  font-family: "Montserrat";
+  text-align: center;
+  background-color: #98ACF8;
+}
+.cta-heading{
+  color: white;
+  font-size: 3.5rem;
+  margin-bottom: 5%;
+}
+/*Footer*/
+#footer{
+  padding: 50px;
+  color: gray;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.icon-footer{
+  margin: 15px 10px;
+}
+/*Media Query*/
+@media (max-width:1028px){
+  #dog{
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+  }
+  #doc{
+    display: inline-block;
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    font-size: 3rem;
+  }
+  h2{
+    font-size:2rem;
+  }
+  .boton{
+    display: inline-block;
+    text-align: center;
+
+  }
+}
